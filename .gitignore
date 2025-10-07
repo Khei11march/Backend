@@ -1,0 +1,32 @@
+cat > .gitignore << 'EOF'
+# Laravel
+vendor/
+bootstrap/cache/
+storage/
+.env
+.env.backup
+.env.example
+.phpunit.result.cache
+
+# Composer
+composer.lock
+
+# IDE
+.idea/
+.vscode/
+
+# Log
+logs/
+
+# Node.js
+node_modules/
+package-lock.json
+
+# Public files (jika pakai build)
+public/js/
+public/css/
+public/mix-manifest.json
+
+# Cache
+cache/
+EOF
